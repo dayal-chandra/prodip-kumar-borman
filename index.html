@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Prodip-Kumar-Borman</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@5"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script
+      src="https://kit.fontawesome.com/1102def813.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+      .open-sans-font {
+        font-family: "Open Sans", sans-serif;
+      }
+    </style>
+  </head>
+  <body class="open-sans-font">
+    <!-- HEADER START -->
+    <header class="bg-[#FFF8F3] px-5 lg:px-0">
+      <nav
+        class="max-w-[1170px] mx-auto flex justify-between items-center py-8"
+      >
+        <div class="logo">
+          <h1 class="text-5xl font-extrabold">
+            Pro<span class="text-[#FD6E0A]">d</span>ip
+          </h1>
+        </div>
+
+        <div class="menu-bar lg:hidden">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+        <div class="nav-btns gap-5 hidden lg:flex">
+          <a href="#about-me">
+            <button
+              class="btn text-[#FD6E0A] border-[#FD6E0A] hover:bg-[#FD6E0A] hover:text-white bg-[#FFF8F3]"
+            >
+              About Me
+            </button>
+          </a>
+
+          <a href="#resume">
+            <button
+              class="btn text-[#FD6E0A] border-[#FD6E0A] hover:bg-[#FD6E0A] hover:text-white bg-[#FFF8F3]"
+            >
+              Resume
+            </button>
+          </a>
+
+          <a href="#footer">
+            <button
+              class="btn bg-[#FD6E0A] text-white hover:bg-[#FFF8F3] hover:text-[#FD6E0A] border-[#FD6E0A]"
+            >
+              Contact Me
+            </button>
+          </a>
+        </div>
+      </nav>
+
+      <div
+        class="banner max-w-[1170px] mx-auto flex flex-col-reverse lg:flex-row justify-between items-center"
+      >
+        <div class="banner-title lg:w-2/3">
+          <h2 class="text-5xl font-semibold">Hi, I am</h2>
+          <h1 class="text-7xl font-bold py-5">Prodip Kumar Borman</h1>
+          <p class="text-[18px] text-[#757575]">
+            Shot what able cold new see hold.Friendly as an betrayed formerly
+            he. Morning because as to society behaved moments.
+          </p>
+          <div class="banner-btns py-5">
+            <a href="./images/ProdipCV.pdf" download="Prodip-Kumar-CV.pdf">
+              <button
+                class="btn bg-[#FD6E0A] text-white hover:bg-[#FFF8F3] hover:text-[#FD6E0A]"
+              >
+                <i class="fa-solid fa-download"></i> Download CV
+              </button>
+            </a>
+
+            <a href="#footer">
+              <button
+                class="btn hover:bg-[#FD6E0A] text-[#FD6E0A] bg-[#FFF8F3] hover:text-white border border-[#FD6E0A]"
+              >
+                <i class="fa-solid fa-phone"></i> Contact
+              </button>
+            </a>
+          </div>
+        </div>
+
+        <div class="lg:w-1/3">
+          <img class="400px hidden lg:flex" src="./images/IMG_rr.png" alt="" />
+          <img
+            class="border rounded-3xl mb-5 lg:hidden"
+            src="./images/profile.png"
+            alt=""
+          />
+        </div>
+      </div>
+    </header>
+    <!-- HEADER END -->
+
+    <!-- ABOUT ME -->
+    <div
+      id="about-me"
+      class="about-me max-w-[1170px] mx-auto bg-[#FFF8F3] p-5 lg:p-20 mt-28 rounded-lg"
+    >
+      <div class="bg-white p-5 lg:p-20 text-center">
+        <h1 class="text-4xl font-bold pb-5">About Me</h1>
+        <p class="text-[#757575]">
+          I, m a designer & developer with a passion for web design. I enjoy
+          developing simple, clean and slick websites that provide real value to
+          the end user. Thousands of clients have procured exceptional resulfs
+          while working with me. Delivering work within time and budget which
+          meets clients requirements in our mata.
+        </p>
+
+        <div
+          class="flex flex-col lg:flex-row justify-around items-center gap-5 pt-10"
+        >
+          <div>
+            <p>Name:</p>
+            <h1 class="font-bold">Prodip Kumar Borman</h1>
+          </div>
+          <div>
+            <p>Email:</p>
+            <h1 class="font-bold">prodip@gmail.com</h1>
+          </div>
+          <div>
+            <p>Date of birth:</p>
+            <h1 class="font-bold">11 November 1992</h1>
+          </div>
+          <div>
+            <p>From:</p>
+            <h1 class="font-bold">Kurigram, BD</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ABOUT ME END -->
+
+    <!-- WHAT I DO -->
+    <div class="what-i-do max-w-[1170px] mx-auto py-16">
+      <div class="what-i-do-title text-center pb-20">
+        <h1 class="text-4xl font-bold py-6">What I do</h1>
+        <p class="text-[#757575] px-5 lg:px-48">
+          I have more than 10 years experience building software for clients all
+          over the world. Below is a quick overview of my main technical skill
+          sets and technologies i use. Want to find out more about my
+          experience? Check out my online resume and project portfolio.
+        </p>
+      </div>
+      <div
+        class="what-i-do-cards px-5 lg:px-0 grid grid-cols-1 lg:grid-cols-4 gap-5"
+      >
+        <div
+          class="shadow-sm rounded-lg p-5 hover:bg-slate-700 hover:text-white transition duration-600 ease-in-out"
+        >
+          <h1 class="text-[20] font-bold pb-3">Vanilla JavaScript</h1>
+          <p>
+            List skill/technologies here. You can change the icon above to any
+            of the 1500+ FontAwesome 5 free icons available. Aenean commodo
+            ligula eget dolor.
+          </p>
+        </div>
+        <div
+          class="shadow-sm rounded-lg p-5 hover:bg-slate-700 hover:text-white transition duration-600 ease-in-out"
+        >
+          <h1 class="text-[20] font-bold pb-3">Vanilla JavaScript</h1>
+          <p>
+            List skill/technologies here. You can change the icon above to any
+            of the 1500+ FontAwesome 5 free icons available. Aenean commodo
+            ligula eget dolor.
+          </p>
+        </div>
+        <div
+          class="shadow-sm rounded-lg p-5 hover:bg-slate-700 hover:text-white transition duration-600 ease-in-out"
+        >
+          <h1 class="text-[20] font-bold pb-3">Vanilla JavaScript</h1>
+          <p>
+            List skill/technologies here. You can change the icon above to any
+            of the 1500+ FontAwesome 5 free icons available. Aenean commodo
+            ligula eget dolor.
+          </p>
+        </div>
+        <div
+          class="shadow-sm rounded-lg p-5 hover:bg-slate-700 hover:text-white transition duration-600 ease-in-out"
+        >
+          <h1 class="text-[20] font-bold pb-3">Vanilla JavaScript</h1>
+          <p>
+            List skill/technologies here. You can change the icon above to any
+            of the 1500+ FontAwesome 5 free icons available. Aenean commodo
+            ligula eget dolor.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- WHAT I DO END -->
+
+    <!-- RESUME SUMMARY -->
+    <div id="resume" class="resume-summary max-w-[1170px] mx-auto pb-40">
+      <div class="resume-title py-16 mt-5">
+        <h1 class="text-4xl font-bold text-center">A summary of My Resume</h1>
+      </div>
+
+      <div
+        class="flex flex-col lg:flex-row justify-between items-center gap-10 lg:gap-5 px-5 lg:px-0"
+      >
+        <div class="education space-y-8">
+          <h1 class="text-3xl font-bold">My Education</h1>
+          <div>
+            <h1 class="text-[25px] font-bold">Sr. Font End Developer</h1>
+            <p class="text-[20px] text-[#757575] font-semibold">
+              Apple Inc / 2020 - Current
+            </p>
+            <p class="text-[#757575]">
+              List skill/technologies here. You can change the icon above to any
+              of the 1500+ FontAwesome 5 free icons available. Aenean commodo
+              ligula eget dolor.
+            </p>
+          </div>
+          <div>
+            <h1 class="text-[25px] font-bold">Sr. Font End Developer</h1>
+            <p class="text-[20px] text-[#757575] font-semibold">
+              Apple Inc / 2020 - Current
+            </p>
+            <p class="text-[#757575]">
+              List skill/technologies here. You can change the icon above to any
+              of the 1500+ FontAwesome 5 free icons available. Aenean commodo
+              ligula eget dolor.
+            </p>
+          </div>
+          <div>
+            <h1 class="text-[25px] font-bold">Sr. Font End Developer</h1>
+            <p class="text-[20px] text-[#757575] font-semibold">
+              Apple Inc / 2020 - Current
+            </p>
+            <p class="text-[#757575]">
+              List skill/technologies here. You can change the icon above to any
+              of the 1500+ FontAwesome 5 free icons available. Aenean commodo
+              ligula eget dolor.
+            </p>
+          </div>
+        </div>
+        <div class="experience space-y-8 pt-20 lg:pt-0">
+          <h1 class="text-3xl font-bold">My Experience</h1>
+          <div>
+            <h1 class="text-[25px] font-bold">Sr. Font End Developer</h1>
+            <p class="text-[20px] text-[#757575] font-semibold">
+              Apple Inc / 2020 - Current
+            </p>
+            <p class="text-[#757575]">
+              List skill/technologies here. You can change the icon above to any
+              of the 1500+ FontAwesome 5 free icons available. Aenean commodo
+              ligula eget dolor.
+            </p>
+          </div>
+          <div>
+            <h1 class="text-[25px] font-bold">Sr. Font End Developer</h1>
+            <p class="text-[20px] text-[#757575] font-semibold">
+              Apple Inc / 2020 - Current
+            </p>
+            <p class="text-[#757575]">
+              List skill/technologies here. You can change the icon above to any
+              of the 1500+ FontAwesome 5 free icons available. Aenean commodo
+              ligula eget dolor.
+            </p>
+          </div>
+          <div>
+            <h1 class="text-[25px] font-bold">Sr. Font End Developer</h1>
+            <p class="text-[20px] text-[#757575] font-semibold">
+              Apple Inc / 2020 - Current
+            </p>
+            <p class="text-[#757575]">
+              List skill/technologies here. You can change the icon above to any
+              of the 1500+ FontAwesome 5 free icons available. Aenean commodo
+              ligula eget dolor.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="text-center pt-20">
+        <a href="./images/ProdipCV.pdf" download="Prodip-Kumar-CV.pdf">
+          <button
+            class="btn bg-[#FD6E0A] text-white hover:bg-[#FFF8F3] hover:text-[#FD6E0A]"
+          >
+            <i class="fa-solid fa-download"></i> Download CV
+          </button>
+        </a>
+      </div>
+    </div>
+    <!-- RESUME SUMMARY END -->
+
+    <!-- FOOTER -->
+    <footer id="footer" class="bg-[#FFF8F3] py-32">
+      <div
+        class="max-w-[1170px] mx-auto flex flex-col lg:flex-row justify-between gap-5 p-5 lg:p-0"
+      >
+        <div class="social lg:w-1/2">
+          <h1 class="text-4xl font-bold pb-7">Lets Connect</h1>
+          <p class="text-[#474747] lg:w-10/12 pb-5">
+            Please fill out the form on this section to contact with me or call
+            between 9:00 A.M and 8.00 P.M ET, Monday through Friday.
+          </p>
+
+          <div class="flex gap-5">
+            <a href=""><img src="./images/icons/facebook.png" alt="" /></a>
+            <a href=""><img src="./images/icons/twitter.png" alt="" /></a>
+            <a href=""><img src="./images/icons/insta.png" alt="" /></a>
+          </div>
+        </div>
+
+        <div class="message lg:w-1/2 pt-10 lg:pt-0">
+          <h1 class="text-4xl font-bold pb-7">Message me</h1>
+
+          <div class="flex flex-col gap-5">
+            <input
+              class="p-3 pl-5 text-[14px] text-[#757575] border-none bg-white rounded-md"
+              type="text"
+              placeholder="Your name"
+            />
+            <input
+              class="p-3 pl-5 text-[14px] text-[#757575] border-none bg-white rounded-md"
+              type="email"
+              placeholder="Your email"
+            />
+            <textarea
+              class="pt-3 pb-10 pl-5 text-[14px] text-[#757575] border-none bg-white rounded-md"
+              name=""
+              id=""
+              placeholder="Message"
+            ></textarea>
+
+            <a
+              href="mailto:djoy4212@gmail.com?subject=Hello&body=I want to connect with you!"
+            >
+              <button
+                class="btn w-[100px] bg-[#FD6E0A] text-white hover:bg-[#FFF8F3] hover:text-[#FD6E0A]"
+              >
+                Submit
+              </button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- FOOTER END -->
+  </body>
+</html>
